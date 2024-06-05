@@ -16,10 +16,10 @@ public class SmsAdvert extends BaseEntity {
 
     private String title;
 
-    private String imageUrl;
+    private String picUrl;
 
     @JsonFormat( pattern = "yyyy-MM-dd", timezone = "GMT+8")
-    private Date startTime;
+    private Date beginTime;
 
     @JsonFormat(pattern = "yyyy-MM-dd", timezone = "GMT+8")
     private Date endTime;

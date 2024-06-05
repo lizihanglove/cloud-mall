@@ -10,9 +10,11 @@ spring:
       # 注册中心
       discovery:
         server-addr: http://localhost:8848
+        namespace: cloud-mall-dev
       # 配置中心
       config:
         server-addr: http://localhost:8848
+        namespace: cloud-mall-dev
         file-extension: yaml
         shared-configs[0]:
           data-id: youlai-common.yaml

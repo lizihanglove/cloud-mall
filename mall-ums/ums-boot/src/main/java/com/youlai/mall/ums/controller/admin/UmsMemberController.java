@@ -26,7 +26,7 @@ public class UmsMemberController {
     private final UmsMemberService memberService;
 
     @Operation(summary= "会员分页列表")
-    @GetMapping
+    @GetMapping("/page")
     public PageResult<UmsMember> getMemberPage(
             @Parameter(name = "页码") Long pageNum,
             @Parameter(name = "每页数量") Long pageSize,
